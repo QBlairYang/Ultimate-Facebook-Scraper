@@ -2,7 +2,7 @@ import json
 import os
 import sys
 import urllib.request
-import yaml
+import credentials.yaml
 import utils
 import argparse
 
