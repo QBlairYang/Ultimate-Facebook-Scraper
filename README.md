@@ -26,7 +26,7 @@ $ python scraper/scraper.py \
     --friends_photos True \
     --friends_small_size True \
     --photos_small_size True \
-    --total_scrolls 2500 \
-    --scroll_time 8
+    --total_scrolls 5 \
+    --scroll_time 3
 ```
 
