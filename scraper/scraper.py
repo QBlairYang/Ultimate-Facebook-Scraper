@@ -15,6 +15,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 
+for line in open("input.txt", newline="\r\n"):
+    get_item_id(line)
+
+
 def get_facebook_images_url(img_links):
     urls = []
 
