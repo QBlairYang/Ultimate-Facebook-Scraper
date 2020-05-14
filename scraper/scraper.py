@@ -15,9 +15,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-for line in open("input.txt", newline="\r\n"):
-    print(get_item_id(line))
-    
+
 
 
 def get_facebook_images_url(img_links):
@@ -904,4 +902,6 @@ if __name__ == "__main__":
     facebook_link_body = selectors.get("facebook_link_body")
 
     # get things rolling
+    for line in open("input.txt", newline="\r\n"):
+        print(get_item_id(line)
     scraper()
