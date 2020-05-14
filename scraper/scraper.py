@@ -799,7 +799,7 @@ def scraper(**kwargs):
         exit(1)
     urls = [
         facebook_https_prefix + facebook_link_body + get_item_id(line)
-        for line in open("input.txt", newline="\r\n", encoding="utf-8")
+        for line in open("input.txt")
         if not line.lstrip().startswith("#") and not line.strip() == ""
     ]
 
