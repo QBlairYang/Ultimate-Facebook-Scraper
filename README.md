@@ -3,9 +3,6 @@
 $ git clone https://source.developers.google.com/p/mfe2020-risk-team-r1/r/github_qblairyang_ultimate-facebook-scraper
 $ cd Ultimate-Facebook-Scraper
 
-# Set up a virtual env
-$ python3 -m venv venv
-$ source venv/bin/activate
 ```
 
 ### How to Run
