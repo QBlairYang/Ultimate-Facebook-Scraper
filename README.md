@@ -6,6 +6,7 @@ $ cd Ultimate-Facebook-Scraper
 # Set up a virtual env
 $ python3 -m venv venv
 $ source venv/bin/activate
+```
 
 ### How to Run
 
@@ -30,5 +31,5 @@ $ python scraper/scraper.py \
     --photos_small_size True \
     --total_scrolls 2500 \
     --scroll_time 8
-
+```
 
