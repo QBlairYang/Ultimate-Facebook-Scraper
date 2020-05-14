@@ -827,7 +827,7 @@ def scraper(**kwargs):
                 os.chdir("../..")
         driver.close()
     else:
-        print("Input file is empty.")
+        print("Your Input file is empty.")
 
 
 # -------------------------------------------------------------
