@@ -799,7 +799,7 @@ def scraper(**kwargs):
         exit(1)
     urls = [
         facebook_https_prefix + facebook_link_body + get_item_id(line)
-        for line in open("input.txt", newline="\r\n")
+        for line in open("input.txt", newline="\r\n", encoding="utf-8")
         if not line.lstrip().startswith("#") and not line.strip() == ""
     ]
 
@@ -902,6 +902,4 @@ if __name__ == "__main__":
     facebook_link_body = selectors.get("facebook_link_body")
 
     # get things rolling
-    for line in open("input.txt", newline="\r\n"):
-        print(get_item_id(line)
     scraper()
