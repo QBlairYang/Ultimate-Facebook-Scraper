@@ -156,7 +156,7 @@ You will need to:
 - Have a Facebook account without 2FA enabled
 
 ```bash
-$ git clone https://github.com/harismuneer/Ultimate-Facebook-Scraper.git
+$ git clone https://github.com/qblairyang/Ultimate-Facebook-Scraper.git
 $ cd Ultimate-Facebook-Scraper
 
 # Set up a virtual env
